@@ -17,7 +17,7 @@ def CVDnnSuperResImpl(image,model_name,scale):
         },
         'lapsrn': {
             2: './models/LapSRN_x2.pb',
-            4: '/models/LapSRN_x4.pb',
+            4: './models/LapSRN_x4.pb',
             8: './models/LapSRN_x8.pb'
         }
     }
