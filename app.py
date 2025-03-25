@@ -11,14 +11,14 @@ from io import StringIO
 def CVDnnSuperResImpl(image,model_name,scale):
     model_paths = {
         'edsr': {
-            2: 'models/EDSR_x2.pb',
-            3: 'models/EDSR_x3.pb',
-            4: 'models/EDSR_x4.pb'
+            2: './models/EDSR_x2.pb',
+            3: './models/EDSR_x3.pb',
+            4: './models/EDSR_x4.pb'
         },
         'lapsrn': {
-            2: 'models/LapSRN_x2.pb',
-            4: 'models/LapSRN_x4.pb',
-            8: 'models/LapSRN_x8.pb'
+            2: './models/LapSRN_x2.pb',
+            4: './models/LapSRN_x4.pb',
+            8: './models/LapSRN_x8.pb'
         }
     }
     
