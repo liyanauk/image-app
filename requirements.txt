@@ -1,7 +1,9 @@
 streamlit
 opencv-python-headless
+opencv-contrib-python-headless
 opencv-contrib-python
 numpy
 pandas
 matplotlib
 scikit-learn
+pillow
