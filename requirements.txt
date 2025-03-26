@@ -1,6 +1,6 @@
 streamlit==1.43.2
-# opencv-contrib-python-headless 
-opencv-contrib-python==4.11.0.86
+opencv-python-headless
+opencv-contrib-python-headless 
 
 # numpy
 # pandas
