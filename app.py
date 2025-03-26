@@ -7,6 +7,8 @@ import io
 from io import StringIO
 
 
+st.write(f"Running on Python {sys.version}")
+
 # In[3]:
 def CVDnnSuperResImpl(image,model_name,scale):
     model_paths = {
