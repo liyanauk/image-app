@@ -1,7 +1,5 @@
 streamlit
-opencv-python
-opencv-python-headless
-opencv-contrib-python-headless
+opencv-contrib-python-headless 
 numpy
 pandas
 matplotlib
