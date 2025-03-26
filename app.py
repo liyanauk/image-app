@@ -9,9 +9,6 @@ from io import StringIO
 
 
 st.write(f"Running on Python {sys.version}")
-MAX_FILE_SIZE_MB = 200  
-MAX_FILE_SIZE_BYTES = MAX_FILE_SIZE_MB * 1024 * 1024
-ALLOWED_EXTENSIONS = ["jpg", "jpeg", "png"]
 # In[3]:
 def CVDnnSuperResImpl(image,model_name,scale):
     model_paths = {
@@ -61,7 +58,7 @@ def upscale_image(image, model_name='edsr', scale=4):
 st.title("🔍 AI Image Upscaler")
 
 # File uploader
-uploaded_image = st.file_uploader("Upload an image", type=ALLOWED_EXTENSIONS)
+uploaded_image = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
 # # Model selection
 model_options = {
