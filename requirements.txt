@@ -1,8 +1,10 @@
-streamlit
-opencv-contrib-python-headless 
-numpy
-pandas
-matplotlib
-scikit-learn
-pillow
+streamlit==1.43.2
+# opencv-contrib-python-headless 
+opencv-contrib-python==4.11.0.86
+
+# numpy
+# pandas
+# matplotlib
+# scikit-learn
+Pillow==9.0.1
 click==8.0.3
