@@ -64,7 +64,7 @@ model_options = {
     "lapsrn": [2, 4, 8]
 }
 
-model_name = st.selectbox("Choose a super-resolution model", ["edsr", "lapsrn"])
+model_name = st.selectbox("Choose a super-resolution model", ["edsr"])
 file_name = st.text_input("Enter a name for the upscaled image (without extension)", "upscaled_image")
 # Scale selection
 if model_name=="edsr":
